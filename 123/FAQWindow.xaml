@@ -1,0 +1,31 @@
+﻿<Window x:Class="_123.FAQWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_123"
+        mc:Ignorable="d"
+        Title="FAQWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock FontSize="20" FontWeight="Bold" Margin="10">FAQ - Problèmes Courants d'un PC</TextBlock>
+            <Expander Header="Mon PC est très lent. Que puis-je faire ?" Margin="10">
+                <TextBlock TextWrapping="Wrap" Margin="10">
+                1. Redémarrez votre PC : Parfois, un simple redémarrage peut résoudre les problèmes de lenteur.
+                2. Fermez les programmes inutilisés : Trop de programmes ouverts peuvent ralentir votre PC.
+                3. Vérifiez les logiciels malveillants : Utilisez un logiciel antivirus pour vérifier si votre PC est infecté.
+                4. Mettez à jour votre système et vos pilotes : Assurez-vous que votre système d'exploitation et vos pilotes sont à jour.
+                5. Nettoyez votre disque dur : Supprimez les fichiers temporaires et inutiles. Utilisez des outils comme "Nettoyage de disque" sous Windows.
+                </TextBlock>
+            </Expander>
+            <Expander Header="Mon PC ne s'allume pas. Que dois-je faire ?" Margin="10">
+                <TextBlock TextWrapping="Wrap" Margin="10">
+                1. Vérifiez les câbles d'alimentation : Assurez-vous que tous les câbles sont bien branchés.
+                2. Essayez une autre prise électrique : Il se peut que la prise utilisée soit défectueuse.
+                3. Testez avec un autre chargeur/adaptateur : Le chargeur ou l'adaptateur pourrait être défectueux.
+                4. Retirez et réinsérez la batterie : Si vous avez un ordinateur portable, essayez de retirer la batterie et de la réinsérer.
+                </TextBlock>
+            </Expander>
+        </StackPanel>
+    </Grid>
+</Window>

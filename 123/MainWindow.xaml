@@ -10,6 +10,8 @@
         <TextBlock x:Name="infoTextBlock" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="1" Margin="9,0,0,0"/>
         <!-- <Label Name="lblWindowsVersion"></Label> -->
 
+        <Button Content="Ouvrir FAQ" Click="OpenFAQButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="50"/>
+
         <Button Content="Paramètres" Click="SettingsButton_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="231,0,0,20" Grid.ColumnSpan="2">
             <Button.ContextMenu>
                 <ContextMenu>
